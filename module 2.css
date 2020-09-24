@@ -1,0 +1,59 @@
+body {
+    background-color: beige;
+}
+
+.Aa {
+    border: 2px solid black;
+}
+
+
+/* for desktop view */
+
+@media (min-width: 992px) {
+    .a,
+    .b,
+    .c {
+        float: left;
+        width: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .a,
+    .b {
+        float: left;
+        width: 48%;
+    }
+    .c {
+        float: right;
+        width: 100%;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section p {
+    margin-top: 0px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.info h2 {
+    margin-top: 0px;
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: cadetblue;
+}
+
+div.a,
+.b,
+.c {
+    margin: 3px;
+    /* width: 30%; */
+    border: 2px solid black;
+    background-color: papayawhip;
+}
